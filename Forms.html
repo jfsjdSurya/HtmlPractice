@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Practicing with Forms
+        </title>
+
+    </head>
+    <body>
+        <h1>HTML Forms</h1>
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="mailid">E-mail:</label>
+            <input type="email" id="emailid" name="emailid" value=""><br><br>
+            <label for="BirthDate">Enter your date of birth:</label>
+            <input type="date" id="date" name="birthdate"><br><br>
+            <label for="color">Select The Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+            <lable for="file">Choose a file:</lable>
+            <input type="file" id="pdf File" name="File"><br><br>
+            <lable for="password">Type your password:</lable>
+            <input type="password" id="pass" name="password" value=""><br><br>
+            <p>What is your main skill?</p>
+            <input type="checkbox" id="Skill1" name="Skill1" value="PYTHON">
+            <label for="Skill1"> Python</label><br>
+            <input type="checkbox" id="Skill2" name="Skill2" value="JAVA">
+            <label for="vehicle2"> Java</label><br>
+            <input type="checkbox" id="Skill3" name="Skill3" value="BOTH">
+            <label for="vehicle3"> Both</label><br><br>
+            <input type="button" onclick="alert('Test begins in 5 min')" value="Start Test"><br><br>
+            <label for="datemin">Enter a date after 2000-01-01:</label>
+            <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+            <label for="birthdaytime">Birthday (date and time):</label>
+            <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+            <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"><br><br>
+            <label for="Price">price (between 100 and 500):</label>
+            <input type="range" id="price" name="price" min="100" max="500"><br><br>
+
+            <input type="submit" value="Submit"><br>
+            <input type="reset"><br><br>
+
+        </form>
+    </body>
+</html>
